@@ -3,6 +3,8 @@ class Program
 { 
 static void Main() 
 { 
-Console.WriteLine("Привет, GitHub!"); 
+Console.Write("Как тебя зовут? "); 
+string name = Console.ReadLine() ?? ""; 
+Console.WriteLine("Привет, " + name + "!"); 
 } 
 } 
